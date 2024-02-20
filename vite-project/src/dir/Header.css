@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.headings-container {
+  display: inline-block;
+}
+.nav-container {
+  display: inline-block;
+  display: flex;
+}
+#center-nav-link {
+  margin: 0 2vw;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+
+/* ----- media query ----- */
+@media only screen and (max-width: 500px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: end;
+  }
+  #center-nav-link {
+    margin: 2vh 0;
+  }
+}

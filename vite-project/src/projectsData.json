@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Study Tool",
+      "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
+      "repoLink": "https://github.com/Ben-Rumbold/web-development-study-tool",
+      "image": "../assets/images/project-1.png"
+    },
+    {
+        "id": 2,
+        "title": "TLC Carpets",
+        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
+        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
+        "image": "../assets/images/project-1.png"
+      },
+      {
+        "id": 3,
+        "title": "Bootstrap Portfolio",
+        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
+        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
+        "image": "../assets/images/project-1.png"
+      },
+      {
+        "id": 4,
+        "title": "TLC Carpets",
+        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
+        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
+        "image": "../assets/images/project-1.png"
+      },
+      {
+        "id": 5,
+        "title": "TLC Carpets",
+        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
+        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
+        "image": "../assets/images/project-1.png"
+      },
+      {
+        "id": 6,
+        "title": "TLC Carpets",
+        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
+        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
+        "image": "../assets/images/project-1.png"
+      }
+  ]

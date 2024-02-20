@@ -1,42 +1,78 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: #ffcc00; /* Orange background when text is highlighted */
+  color: #ffffff; /* White text color when highlighted */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+h1 {
+  font-size: clamp(20px, 3vw, 60px);
+  font-weight: 500;
+  font-style: thin;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  font-size: clamp(15px, 2.5vw, 33px);
+  font-weight: 300;
+  font-style: thin;
+}
+.bullet-point {
+  font-size: clamp(15px, 2.5vw, 33px);
+  font-weight: 900;
+}
+p {
+  font-size: clamp(15px, 2vw, 22px);
+  font-weight: 300;
+  font-style: thin;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.shared-outer-div {
+  background-color: rgb(230, 230, 230);
+  min-height: 100vh;
+  min-width: 100%;
+  padding: 30px;
+}
+
+.shared-inner-div {
+  height: 100%;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  padding: 25px 30px;
+  border: 2px solid rgb(247, 247, 247);
+  position: relative;
+}
+
+/* ----- media queries ----- */
+@media only screen and (max-width: 500px) {
+  .shared-outer-div {
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .shared-inner-div {
+    min-height: calc(100vh - 40px);
+    padding: 15px 20px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* ----- media queries ----- */
+@media only screen and (max-width: 375px) {
+  .shared-outer-div {
+    padding: 15px;
+  }
+  .shared-inner-div {
+    min-height: calc(100vh - 30px);
+    padding: 10px 15px;
   }
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
