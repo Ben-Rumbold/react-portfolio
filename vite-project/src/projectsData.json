@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Web Development Study Tool",
+      "title": "Study Tool",
       "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
       "repoLink": "https://github.com/Ben-Rumbold/web-development-study-tool",
       "image": "../assets/images/project-1.png"
@@ -11,34 +11,34 @@
         "title": "TLC Carpets",
         "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
         "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
-        "image": "../assets/images/project-1.png"
+        "image": "../assets/images/project-2.png"
       },
       {
         "id": 3,
         "title": "Bootstrap Portfolio",
-        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
-        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
-        "image": "../assets/images/project-1.png"
+        "deployedLink": "https://ben-rumbold.github.io/ben-rumbold-portfolio-bootstrap/",
+        "repoLink": "https://github.com/Ben-Rumbold/ben-rumbold-portfolio-bootstrap",
+        "image": "../assets/images/project-3.png"
       },
       {
         "id": 4,
-        "title": "TLC Carpets",
-        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
-        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
-        "image": "../assets/images/project-1.png"
+        "title": "Daily Planner",
+        "deployedLink": "https://ben-rumbold.github.io/daily-planner-app/",
+        "repoLink": "https://github.com/Ben-Rumbold/daily-planner-app",
+        "image": "../assets/images/project-4.png"
       },
       {
         "id": 5,
-        "title": "TLC Carpets",
-        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
-        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
-        "image": "../assets/images/project-1.png"
+        "title": "JavaScript Quiz",
+        "deployedLink": "https://ben-rumbold.github.io/multiple-choice-quiz/",
+        "repoLink": "https://github.com/Ben-Rumbold/multiple-choice-quiz",
+        "image": "../assets/images/project-5.png"
       },
       {
         "id": 6,
-        "title": "TLC Carpets",
-        "deployedLink": "https://ben-rumbold.github.io/tlc-carpets/",
-        "repoLink": "https://github.com/Ben-Rumbold/tlc-carpets",
-        "image": "../assets/images/project-1.png"
+        "title": "Password Generator",
+        "deployedLink": "https://ben-rumbold.github.io/password-generator/",
+        "repoLink": "https://github.com/Ben-Rumbold/password-generator",
+        "image": "../assets/images/project-6.png"
       }
   ]

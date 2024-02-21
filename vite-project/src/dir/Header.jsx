@@ -4,10 +4,10 @@ import "./Header.css";
 
 export default function Header({ currentPage }) {
   return (
-    <div className="navbar">
+    <header className="header">
       <div className="headings-container">
         <h1>Ben Rumbold</h1>
-        <h2>Front-End Developer</h2>
+        <h2 className="yellow-text">Front-End Developer</h2>
       </div>
       <div className="nav-container">
         <Link to="/" className="nav-link">
@@ -32,6 +32,6 @@ export default function Header({ currentPage }) {
           )}
         </Link>
       </div>
-    </div>
+    </header>
   );
 }

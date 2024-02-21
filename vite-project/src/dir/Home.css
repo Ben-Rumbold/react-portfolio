@@ -9,7 +9,7 @@
     -10px 10px 0 2px rgb(247, 247, 247);
   width: clamp(180px, 40vw, 300px);
   aspect-ratio: 1 / 1;
-  margin: 30px auto 0 auto;
+  margin: 20px auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: end;

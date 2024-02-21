@@ -14,9 +14,10 @@ export default function Home() {
           </div>
           <p className="home-text-box">
             My unconventional journey from the construction industry fuels my
-            passion for crafting custom digital solutions. With my JavaScript
-            and React expertise, combined with your vision, let's build
-            something extraordinary together.
+            passion for crafting custom digital solutions. With my{" "}
+            <span className="yellow-text">JavaScript </span>
+            and <span className="blue-text">React</span> expertise, combined
+            with your vision, let's build something extraordinary together.
           </p>
         </div>
       </div>

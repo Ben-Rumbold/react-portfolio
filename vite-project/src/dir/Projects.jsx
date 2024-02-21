@@ -10,9 +10,6 @@ export default function Projects() {
       <div className="shared-outer-div">
         <div className="shared-inner-div">
           <Header currentPage="projects" />
-          <p className="out-of-time">
-            Sorry, I know it looks shit. Ran out of time :/
-          </p>
           <div className="projects-container">
             {projectsData.map((project) => (
               <Project key={project.id} project={project} />

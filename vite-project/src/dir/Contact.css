@@ -1,0 +1,26 @@
+.contact-container {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  width: clamp(180px, 30vw, 350px);
+  display: grid;
+  grid-template-columns: clamp(180px, 30vw, 350px);
+  line-height: 1.65;
+  padding-bottom: 25px;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.contact-container h2 {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  box-shadow: -10px 10px 0 0px rgb(230, 230, 230),
+    -10px 10px 0 2px rgb(247, 247, 247);
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-container h2 {
+    width: 85%;
+  }
+}
